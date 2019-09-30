@@ -130,14 +130,13 @@ partyEvent();
 
 
 // Activates Wake-Up selector
-var wakeUpTimeSelector =  document.getElementById("wakeUpTimeSelector");
+// include update here
 
-var wakeUpEvent = function()
-{
-    wakeuptime = wakeUpTimeSelector.value;
-};
 
-wakeUpTimeSelector.addEventListener("change", wakeUpEvent);
+
+
+
+
 
 
 // Activates Lunch selector
